@@ -2,6 +2,8 @@
 
 test-automation-quickstart
 
+## Contributor
+*
 
 ## Concepts Included
 * Shared state across cucumber step definitions
