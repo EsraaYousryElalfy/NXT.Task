@@ -12,7 +12,7 @@ public class HomePageMethods extends AbstractPageObject {
     private By _LoginLinkLocator = By.cssSelector("a.ico-login");
     private By _TopicTitleLocator = By.xpath("//h2[contains(text(),'Welcome to our store')]");
     private By _LogoutLinkLocator = By.cssSelector("a.ico-logout");
-    private By _SearchTextBoxLocator = By.id("#small-searchterms");
+    private By _SearchTextBoxLocator = By.id("small-searchterms");
     private By _SearchButtonLocator = By.cssSelector("button.search-box-button");
     private By _CartLinkLocator = By.cssSelector("a.ico-cart");
 

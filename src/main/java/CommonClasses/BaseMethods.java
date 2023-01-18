@@ -82,7 +82,7 @@ public class BaseMethods extends AbstractPageObject {
         options.addArguments("--window-size=1920,1080");
         options.addArguments("--start-maximized");
         options.addArguments("enable-automation");
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         options.addArguments("--incognito");
         driver = new ChromeDriver(options);
         driver.manage().deleteAllCookies();

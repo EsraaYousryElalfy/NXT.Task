@@ -7,9 +7,9 @@ import org.openqa.selenium.WebElement;
 
 public class LoginPageMethods extends AbstractPageObject {
 
-    private By _EmailTextBoxLocator = By.xpath("");
-    private By _PasswordTextBoxLocator = By.xpath("");
-    private By _LoginButtonLocator = By.xpath("");
+    private By _EmailTextBoxLocator = By.id("Email");
+    private By _PasswordTextBoxLocator = By.id("Password");
+    private By _LoginButtonLocator = By.cssSelector("button.login-button");
     private By _LoginPageHeaderLocator = By.cssSelector("div.login-page");
 
     public WebElement EmailTextBox() {

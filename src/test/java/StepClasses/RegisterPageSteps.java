@@ -18,8 +18,8 @@ public class RegisterPageSteps extends AbstractPageObject {
         registerPageMethods.EnterFirstName(Property.getProperty("FirstName"));
         registerPageMethods.EnterLastName(Property.getProperty("LastName"));
         registerPageMethods.SelectDay(Property.getProperty("Day"));
-        registerPageMethods.SelectDay(Property.getProperty("Month"));
-        registerPageMethods.SelectDay(Property.getProperty("Year"));
+        registerPageMethods.SelectMonth(Property.getProperty("Month"));
+        registerPageMethods.SelectYear(Property.getProperty("Year"));
         registerPageMethods.EnterEmail(Property.getProperty("Email"));
         registerPageMethods.EnterCompanyName(Property.getProperty("CompanyName"));
         registerPageMethods.EnterPassword(Property.getProperty("Password"));
@@ -30,6 +30,7 @@ public class RegisterPageSteps extends AbstractPageObject {
     @Then("The User Registered Successfully")
     public void TheUserRegisteredSuccessfully() {
         RegisterPageMethods registerPageMethods = new RegisterPageMethods();
+        BaseMethods.WaitForElementVisible(registerPageMethods.RegistrationMessage());
         Assert.assertEquals("Your registration completed" , registerPageMethods.RegistrationMessageText());
     }
 

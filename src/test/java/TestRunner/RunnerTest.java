@@ -15,7 +15,7 @@ import java.net.UnknownHostException;
 @RunWith(Cucumber.class)
 
 
-@CucumberOptions(features = "src/test/java/Features/",
+@CucumberOptions(features = "src/test/java/Features/PurshaseWindows.feature",
         glue = {"StepClasses"}, plugin = {
         "com.cucumber.listener.ExtentCucumberFormatter:target/cucumberReports/report.html", "pretty",
         "html:target/CucumberReports/", "junit:target/CucumberReports/Cucumber.xml",

@@ -16,7 +16,7 @@ Feature: PurchaseWindows
 #    Then  The purchasing processing is done successfully
     Examples:
       | Product       | Suggestion | ItemsNo |
-      | windows 8 Pro | 1          | 1       |
+      | Windows 8 Pro | 1          | 1       |
 
 
 

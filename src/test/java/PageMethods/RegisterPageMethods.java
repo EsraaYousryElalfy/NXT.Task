@@ -16,15 +16,15 @@ public class RegisterPageMethods extends AbstractPageObject {
     private By _RegisterContinueButtonLocator = By.cssSelector("a.register-continue-button");
     private By _RegisterButtonLocator = By.xpath("//button[contains(text(),'Register')]");
     private By _GenderRadioButtonLocator = By.xpath("//div[@id='gender']//input");
-    private By _FirstNameTextBoxLocator = By.id("#FirstName");
-    private By _LastNameTextBoxLocator = By.id("#LastName");
+    private By _FirstNameTextBoxLocator = By.id("FirstName");
+    private By _LastNameTextBoxLocator = By.id("LastName");
     private By _DayListLocator = By.name("DateOfBirthDay");
     private By _MonthListLoactor = By.name("DateOfBirthMonth");
     private By _YearListLocator = By.name("DateOfBirthYear");
-    private By _EmailTextBoxLocator = By.id("#Email");
-    private By _CompanyTextBoxLoactor = By.id("#Company");
-    private By _PasswordLocator = By.id("#Password");
-    private By _ConfirmPasswordlocator = By.id("#ConfirmPassword");
+    private By _EmailTextBoxLocator = By.id("Email");
+    private By _CompanyTextBoxLoactor = By.id("Company");
+    private By _PasswordLocator = By.id("Password");
+    private By _ConfirmPasswordlocator = By.id("ConfirmPassword");
 
     // Elements methods
     public WebElement RegisterPageHeader() {

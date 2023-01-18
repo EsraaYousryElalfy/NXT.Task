@@ -9,8 +9,8 @@ import java.util.List;
 
 public class CheckoutPageMethods extends AbstractPageObject {
     private By _CartItemsLocator = By.cssSelector("div.order-summary-content table.cart thead tr");
-    private By _CheckoutButtonLocator = By.id("#checkout");
-    private By _TermsAndConditionCheckBoxLocator = By.id("#termsofservice");
+    private By _CheckoutButtonLocator = By.id("checkout");
+    private By _TermsAndConditionCheckBoxLocator = By.id("termsofservice");
     private By _CheckOutPageHeaderLocator = By.cssSelector("div.page.checkout-page");
 
     public List<WebElement> CartItems() {
