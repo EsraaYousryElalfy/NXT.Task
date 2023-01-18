@@ -3,18 +3,18 @@
 test-automation-quickstart
 
 
-Concepts Included
+- Concepts Included
 Shared state across cucumber step definitions
 Page Object pattern
 Property file for TDD
 
-Tools
+- Tools
 Maven
 Cucumber
 TestNG
 Selenium Webdriver
 
-Requirements
+- Requirements
 In order to utilise this project you need to have the following installed locally:
 
 Maven
