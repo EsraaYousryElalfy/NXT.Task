@@ -1,4 +1,4 @@
-# NopCommerceForVodafone
+# NopCommerce
 
 test-automation-quickstart
 
