@@ -12,8 +12,8 @@ public class LoginPageSteps extends AbstractPageObject {
     @When("^The User enters login credentials$")
     public void TheUserEntersLoginCredentials() {
         LoginPageMethods loginPageMethods = new LoginPageMethods();
-        loginPageMethods.EnterLoginEmail(Property.getProperty("Email"));
-        loginPageMethods.EnterLoginPassword(Property.getProperty("Password"));
+        loginPageMethods.EnterLoginEmail(Property.getProperty("nxttester"));
+        loginPageMethods.EnterLoginPassword(Property.getProperty("nxt#qA@23"));
         loginPageMethods.ClickOnLogInButton();
     }
 }
